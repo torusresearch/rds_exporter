@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-GO    := GO15VENDOREXPERIMENT=1 go
+GO    := go
 PROMU := $(GOPATH)/bin/promu
 pkgs   = $(shell $(GO) list ./...)
 
@@ -43,7 +43,7 @@ vet:
 	@echo ">> vetting code"
 	@$(GO) vet $(pkgs)
 
-build: promu
+build:
 	@echo ">> building binaries"
 	@$(PROMU) build --prefix $(PREFIX)
 

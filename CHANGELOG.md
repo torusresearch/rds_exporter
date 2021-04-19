@@ -15,10 +15,10 @@ Nothing yet.
 - `disable_basic_metrics` and `disable_enhanced_metrics` configuration options.
 
 ### Changed
-- Major changes in `node_exporter`-like metrics. See [PR #33](https://github.com/percona/rds_exporter/pull/33)
-  and [here](https://github.com/percona/rds_exporter#metrics).
+- Major changes in `node_exporter`-like metrics. See [PR #33](https://github.com/torusresearch/rds_exporter/pull/33)
+  and [here](https://github.com/torusresearch/rds_exporter#metrics).
 - `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables are honored now
-  ([PR #43](https://github.com/percona/rds_exporter/pull/43) by [@ahmgeek](https://github.com/ahmgeek)).
+  ([PR #43](https://github.com/torusresearch/rds_exporter/pull/43) by [@ahmgeek](https://github.com/ahmgeek)).
 - Tests and linting improvements.
 
 
@@ -26,6 +26,6 @@ Nothing yet.
 - Initial tagged release.
 
 
-[Unreleased]: https:/github.com/percona/rds_exporter/compare/v0.7.0...master
-[0.7.0]: https://github.com/percona/rds_exporter/compare/v0.6.0...v0.7.0
-[0.6.0]: https://github.com/percona/rds_exporter/releases/tag/v0.6.0
+[Unreleased]: https:/github.com/torusresearch/rds_exporter/compare/v0.7.0...master
+[0.7.0]: https://github.com/torusresearch/rds_exporter/compare/v0.6.0...v0.7.0
+[0.6.0]: https://github.com/torusresearch/rds_exporter/releases/tag/v0.6.0
